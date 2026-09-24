@@ -252,12 +252,12 @@ T1059.001 - powerShell
 ## SIEM Engineering
 - deploy Wazuh
 - Depoly Agent
-- Intgrate Sysmon
+- Integrate Sysmon
 
 ## Detection Engineering
 - Identify event source
 - Analyze JSON fields
-- Analyze existing dtections
+- Analyze existing detections
 - Build custom rule
 - Test custom rule
 - Validate alerts
