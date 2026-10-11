@@ -364,7 +364,75 @@ net localgroup administrators
 
 Custom alert generated successfully.
 
-# Next 
+# Detection Engineering Level 5A
 
-# Detection Engineering Level 5
-# Host Discovery Detection
+## Use Case
+
+System Owner Discovery
+
+## MITRE ATT&ACK
+
+T1033
+
+## Parent Rule
+
+92031
+
+## Custom Rule
+
+100504
+
+## Validation
+
+whoami
+
+## Result
+
+Custom alert generated successfully
+
+# Detection Engineering Level 5B
+
+## Use Case
+
+Network Configration Dicovery
+
+## MITRE ATT&CK
+
+T1016
+
+## Test Commands
+
+```powershell
+ipconfig
+ipconfig/all
+```
+
+### Status
+
+Telemetry Identification
+
+# Detection Engineering Level 6
+
+## Use Case
+
+System Information Discovery 
+
+## MITRE ATT&CK
+
+T1082
+
+## Test Command
+
+systeminfo
+
+## Parent Rule
+
+100505
+
+## Custom Rule
+
+100506
+
+## Result
+
+Custom detection successfully.``
